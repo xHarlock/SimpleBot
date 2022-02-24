@@ -25,8 +25,8 @@ public class Bot {
         prefix = ".";
         
         // Get the token from a file
-		Scanner scanner = new Scanner(new File("./token.txt"));
-		String token = scanner.next();
+	Scanner scanner = new Scanner(new File("./token.txt"));
+	String token = scanner.next();
 
         // Initialize a new manager
         manager = new CommandManager();
