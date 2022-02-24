@@ -32,7 +32,7 @@ public class CommandListener extends ListenerAdapter {
         }
 
         String[] split = ev.getMessage().getContentRaw().replaceFirst("(?i)" + Pattern.quote(Bot.getPrefix()), "").split("\\s+");
-		String invoke = split[0].toLowerCase(Locale.UK);
+	String invoke = split[0].toLowerCase(Locale.UK);
 
         // Not a valid name
         if (!manager.isValidName(invoke)) {
